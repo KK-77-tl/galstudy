@@ -1,0 +1,192 @@
+{
+  "projects": [
+    {
+      "repo": "OpenWebGAL/WebGAL",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/OpenWebGAL/WebGAL/main/README.md",
+          "bytes": 2918,
+          "sha256": "81d8540405ebc822ca5205656ed3c6f68c9904989ea539beb85fb95f28e32355"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/OpenWebGAL/WebGAL/main/LICENSE",
+          "bytes": 16725,
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        },
+        {
+          "file": "package.json",
+          "url": "https://raw.githubusercontent.com/OpenWebGAL/WebGAL/main/package.json",
+          "bytes": 929,
+          "sha256": "2de46fcd73b10f794481e32846a01427a995e194fbb33bbeed87426fc3e81aad"
+        }
+      ]
+    },
+    {
+      "repo": "docling-project/docling",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/docling-project/docling/main/README.md",
+          "bytes": 8769,
+          "sha256": "7640889422b17366a6d4420d2f631575c06facac391e5221fb177291e8665efe"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE",
+          "bytes": 1072,
+          "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c"
+        },
+        {
+          "file": "pyproject.toml",
+          "url": "https://raw.githubusercontent.com/docling-project/docling/main/pyproject.toml",
+          "bytes": 17080,
+          "sha256": "f8beca152ea5e1173c517b36bd237593a83645c4f0437afff53b99e1d8477a60"
+        }
+      ]
+    },
+    {
+      "repo": "Mintplex-Labs/anything-llm",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+          "bytes": 25650,
+          "sha256": "c08b9e08200769c82004b36515e6e4b9c39a8b0deda32756c44bf72c730736e4"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/LICENSE",
+          "bytes": 1073,
+          "sha256": "782d2dc18a1ed9028ca992520f42b2e0b6187807da0d14455b8ae608e2e5692e"
+        },
+        {
+          "file": "package.json",
+          "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/package.json",
+          "bytes": 2707,
+          "sha256": "ed313926f6abe8238a74b865f8615b79b61d8c36eac2aa5f562a6b6dcab10536"
+        }
+      ]
+    },
+    {
+      "repo": "SillyTavern/SillyTavern",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/README.md",
+          "bytes": 267,
+          "sha256": "4692e1e411a617b19cfebc445c03f8760b55420e32fe0bc0d88cb1552ca9ff08"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/LICENSE",
+          "bytes": 34523,
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "file": "package.json",
+          "url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/package.json",
+          "bytes": 5941,
+          "sha256": "5b6e0634a63872c33603bf803217613a388f2e5dbd5990f7b30d254bfbf027c2"
+        }
+      ]
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+          "bytes": 29338,
+          "sha256": "7b4ef883d0f634223598f4d03f42773e408b6ccbfb1f340fb54f321bef6f9dde"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "file": "pyproject.toml",
+          "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/pyproject.toml",
+          "bytes": 2017,
+          "sha256": "8579d95131cfe7a4ef4a95f97414bde907c2dcc8dba2190f1eb865f1a5780255"
+        }
+      ]
+    },
+    {
+      "repo": "inkle/ink",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/inkle/ink/master/README.md",
+          "bytes": 10469,
+          "sha256": "d4e1fb8405be61ba17d6aa08a2d7ca719521b0bc18278302a62af4826747d161"
+        },
+        {
+          "file": "LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/inkle/ink/master/LICENSE.txt",
+          "bytes": 1067,
+          "sha256": "8ade0ddc1c3ede9acaf6febf2742400aa0dff808f35b202962fe073a184e8d4a"
+        }
+      ]
+    },
+    {
+      "repo": "y-lohse/inkjs",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/y-lohse/inkjs/master/README.md",
+          "bytes": 9718,
+          "sha256": "3619f0e838a4b392d80b88de8ffa76cf87f085e91aa7bba6d8cbbb8f2aacbbf6"
+        },
+        {
+          "file": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/y-lohse/inkjs/master/LICENSE.md",
+          "bytes": 1121,
+          "sha256": "040e957a77e3e19432e265cb549d5c3b4ca6f3551e24d22b81785ffd1bc2b67b"
+        }
+      ]
+    },
+    {
+      "repo": "open-spaced-repetition/ts-fsrs",
+      "checks": [
+        {
+          "file": "README.md",
+          "url": "https://raw.githubusercontent.com/open-spaced-repetition/ts-fsrs/main/README.md",
+          "bytes": 4726,
+          "sha256": "abd83d7d1ddd46b7f4455d6f05cd90f9b6c7ca356733e84db7e3278116764730"
+        },
+        {
+          "file": "LICENSE",
+          "url": "https://raw.githubusercontent.com/open-spaced-repetition/ts-fsrs/main/LICENSE",
+          "bytes": 1079,
+          "sha256": "8b83a73dd2894ff553d6de6113064b3ad9dfad3f839837b61f3b183881131d01"
+        },
+        {
+          "file": "package.json",
+          "url": "https://raw.githubusercontent.com/open-spaced-repetition/ts-fsrs/main/package.json",
+          "bytes": 2478,
+          "sha256": "8626214d8f5420efdc7d0704ebc884c7d4519fb1c8b2233dd5d492b2122e15e6"
+        }
+      ]
+    },
+    {
+      "repo": "OpenWebGAL/WebGAL",
+      "source": "packages/webgal/src/Core/WebGAL.ts",
+      "bytes": 250,
+      "sha256": "8296c232c66f0678727a50238f72a7fc2c9595a31f7d3c497e83344588a76ac9"
+    },
+    {
+      "repo": "OpenWebGAL/WebGAL",
+      "source": "packages/webgal/src/Core/controller/storage/saveGame.ts",
+      "bytes": 2636,
+      "sha256": "4971a07e9db3ffc3a218267c3ab38734a03591e0b317b0f655dbe5f004ddda25"
+    }
+  ],
+  "webgal_paths": [
+    "packages/webgal/src/Core/WebGAL.ts",
+    "packages/webgal/src/Core/controller/storage/saveGame.ts"
+  ]
+}

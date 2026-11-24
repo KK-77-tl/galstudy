@@ -1,0 +1,31 @@
+{
+  "version": "PostgreSQL 17.12 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+  "migrations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "public_tables": 23,
+  "test_exit_code": 0,
+  "test_seconds": 50.55,
+  "repeat_migration_preserves_rows": true,
+  "repeat_migration_preserves_content": true,
+  "validated_row_counts": {
+    "users": 68,
+    "courses": 19,
+    "saves": 3,
+    "chat_messages": 8,
+    "orders": 36,
+    "payment_events": 27,
+    "entitlements": 18,
+    "refunds": 5
+  },
+  "database_isolation": "new galstudy_test_* database in a new test-results cluster",
+  "listen_addresses": "127.0.0.1",
+  "authentication": "scram-sha-256",
+  "server_stopped": true
+}

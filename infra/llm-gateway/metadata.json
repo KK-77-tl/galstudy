@@ -1,0 +1,13 @@
+{
+  "main_module": "worker.mjs",
+  "compatibility_date": "2026-11-23",
+  "bindings": [{ "name": "AI", "type": "ai" }],
+  "keep_bindings": ["secret_text"],
+  "observability": {
+    "enabled": true,
+    "redact_query_string": true,
+    "logs": { "enabled": true, "invocation_logs": false, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.1 }
+  },
+  "tags": ["galstudy", "private-model-gateway"]
+}

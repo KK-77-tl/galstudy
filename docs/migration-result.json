@@ -1,0 +1,16 @@
+{
+  "migrations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "legacy_demo_saves": 30,
+  "validated_saves": 50,
+  "valid": true,
+  "processing_messages": 0,
+  "delivered_mock_characters": 12,
+  "unfinished_image_jobs": 0
+}

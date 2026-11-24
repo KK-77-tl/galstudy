@@ -1,0 +1,267 @@
+.companion {
+  position: fixed;
+  right: 22px;
+  bottom: 20px;
+  z-index: 45;
+  font-family: inherit;
+}
+.dock {
+  height: 58px;
+  width: 158px;
+  border: 1px solid #dbe3d4;
+  border-radius: 30px;
+  background: #fffffaf5;
+  box-shadow: 0 6px 24px #39493020;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 3px;
+}
+.drag {
+  touch-action: none;
+  cursor: grab;
+  color: #9aa98d;
+  width: 20px;
+  flex-shrink: 0;
+  padding: 0;
+}
+.toggle {
+  padding: 0;
+  gap: 6px;
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 0;
+}
+.toggle > img {
+  width: 32px;
+  height: 42px;
+  object-fit: cover;
+  object-position: center 10%;
+  border-radius: 50%;
+  background: #f0eee2;
+}
+.toggle > span {
+  font-size: 11px;
+  text-align: left;
+  white-space: nowrap;
+}
+.toggle small {
+  display: block;
+  font-size: 8px;
+  color: #a1aa93;
+  margin-top: 4px;
+}
+.toggle > svg {
+  width: 14px;
+  color: #7d9272;
+}
+.panel {
+  position: fixed;
+  right: 22px;
+  bottom: 90px;
+  width: 370px;
+  height: min(590px, calc(100dvh - 115px));
+  display: flex;
+  flex-direction: column;
+  background: #fffef9;
+  border: 1px solid #dfe6d5;
+  border-radius: 14px;
+  box-shadow: 0 18px 55px #38472d30;
+  overflow: hidden;
+}
+.panel header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 17px;
+  border-bottom: 1px solid #e7ebdf;
+  background: #f4f7ee;
+}
+.panel header > div {
+  flex: 1;
+}
+.panel header strong {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.panel header small {
+  display: block;
+  color: #98a38c;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.panel header button {
+  padding: 2px;
+  color: #8c9b7e;
+}
+.selectors {
+  display: flex;
+  gap: 10px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e9eddf;
+}
+.selectors label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #9ca68f;
+  font-size: 9px;
+  min-width: 0;
+  flex: 1;
+}
+.selectors select {
+  width: 100%;
+  font: inherit;
+  font-size: 11px;
+  color: #6e805f;
+  padding: 6px;
+  border: 1px solid #dfe5d5;
+  border-radius: 5px;
+  background: #fffef9;
+}
+.selectors label:last-child {
+  max-width: 85px;
+}
+.transcript {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-height: 100px;
+}
+.hint {
+  font-size: 11px;
+  line-height: 2;
+  color: #9aa78a;
+}
+.transcript article {
+  padding: 12px;
+  border-radius: 9px;
+  max-width: 95%;
+  font-size: 12px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.transcript article > small {
+  font-size: 8px;
+  color: #8c9b7e;
+}
+.transcript article > p {
+  white-space: pre-wrap;
+  margin: 7px 0 0;
+}
+.assistant {
+  align-self: flex-start;
+  background: #f1f5e9;
+}
+.user {
+  align-self: flex-end;
+  background: #f8eee8;
+}
+.transcript details {
+  font-size: 9px;
+  color: #8c9b7f;
+  margin-top: 10px;
+}
+.transcript summary {
+  cursor: pointer;
+}
+.transcript details div {
+  margin-top: 10px;
+}
+.transcript details strong {
+  font-size: 9px;
+  font-weight: 500;
+}
+.transcript details p {
+  white-space: pre-wrap;
+  font-size: 10px;
+  line-height: 1.8;
+  margin: 5px 0;
+}
+.error {
+  color: #aa7063;
+  font-size: 10px;
+  line-height: 1.7;
+  padding: 8px 15px;
+  background: #f8ece6;
+  max-height: 70px;
+  overflow-y: auto;
+}
+.form {
+  padding: 12px 15px;
+  border-top: 1px solid #e6ebdc;
+}
+.form textarea {
+  resize: vertical;
+  min-height: 58px;
+  max-height: 130px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dfe5d5;
+  border-radius: 7px;
+  outline: none;
+  font-size: 11px;
+  background: #fdfef9;
+  color: #5c7151;
+}
+.form textarea:focus {
+  border-color: #91a57f;
+}
+.form > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.form small {
+  font-size: 8px;
+  color: #a2ad92;
+}
+.form button[type="submit"] {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #637e56;
+  color: white;
+  padding: 0;
+  flex-shrink: 0;
+}
+.form .demoRetry {
+  font-size: 10px;
+  color: #8d9b7b;
+  margin-top: 5px;
+}
+.form small.warning {
+  color: #b18e4f;
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+@media (max-width: 780px) {
+  .companion {
+    right: 12px;
+    bottom: 14px;
+  }
+  .dock {
+    width: 96px;
+  }
+  .toggle > span {
+    display: none;
+  }
+  .panel {
+    left: 12px;
+    right: 12px;
+    bottom: 84px;
+    width: auto;
+    height: min(590px, calc(100dvh - 105px));
+  }
+}

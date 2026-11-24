@@ -1,0 +1,22 @@
+{
+  "status": "partial",
+  "sqlite_tests": 99,
+  "sqlite_seconds": 48.49,
+  "postgresql_tests": 99,
+  "postgresql_seconds": 47.27,
+  "frontend_tests": 11,
+  "frontend_build": "passed",
+  "real_payment_calls": 0,
+  "remote_alipay_sandbox": "not executed",
+  "runtime_local_provider": "mock",
+  "http_routes": "implemented",
+  "ui_fixture_report": "alipay-ui/result.json",
+  "webkit_report": "webkit/runner-result.json",
+  "local_checks": "passed",
+  "current_container_build": "passed_digest_verified_official_cache",
+  "container_secret_mount_syntax": "passed",
+  "configured_provider_startup": "passed: separate process, synthetic key files, no gateway call",
+  "container_payment_key_loading": "passed_network_disabled_nonroot",
+  "container_report": "compose-result.json",
+  "container_crypto_report": "alipay-container-result.json"
+}

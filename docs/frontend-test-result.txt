@@ -1,0 +1,21 @@
+
+> galstudy-web@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ JSON headers, FormData and caller cancellation reach fetch (17.9719ms)
+✔ API errors preserve server messages and safely handle validation details (0.756ms)
+✔ late private data is rejected after logout (0.7205ms)
+✔ late private data is rejected after login (0.3444ms)
+✔ late private data is rejected after register (0.4132ms)
+✔ UTF-8 Chinese split at each byte, CRLF, comments and multiline data (4.5005ms)
+✔ multiple events in a network chunk preserve ordering and server errors (0.2608ms)
+✔ truncation, invalid events and oversized buffers reject (2.1591ms)
+✔ consumer cancellation releases the reader (0.3836ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 172.4029

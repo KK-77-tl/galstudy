@@ -1,0 +1,9 @@
+.dialogue { position: absolute; left: 6%; bottom: 3%; width: 88%; min-height: 17%; display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; text-align: left; padding: 1.3% 2.2%; border: 1px solid #d4bea77d; background: linear-gradient(110deg, #181a2ae8, #29283fe8); color: #f2e7d6; font-family: inherit; box-shadow: 0 8px 30px #0005; animation: appear .3s both; }
+.dialogue:disabled { opacity: 1; }
+.speaker { color: #dbc29d; font-size: clamp(12px, 1.2cqw, 20px); letter-spacing: .2em; margin-bottom: 8px; }
+.text { font-size: clamp(14px, 1.55cqw, 26px); letter-spacing: .08em; line-height: 1.8; overflow-wrap: anywhere; }
+.prompt { align-self: flex-end; font-size: clamp(10px, .8cqw, 14px); color: #c5b49d; margin-top: 8px; }
+.accessible { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+@media (max-aspect-ratio: 1/1) { .dialogue { top: 64vw; bottom: auto; min-height: 180px; padding: 20px; } }
+@media (prefers-reduced-motion: reduce) { .dialogue { animation: none; } }

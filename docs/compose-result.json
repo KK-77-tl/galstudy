@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "created_at": "2026-11-24T03:34:34.563583+00:00",
+  "project": "galstudycheck6b94f1cbb076",
+  "scratch_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\compose-6b94f1cbb076",
+  "base_url": "http://localhost:55716",
+  "real_model_calls": 0,
+  "real_payments": 0,
+  "base_references": {
+    "COMPOSE_NODE_BASE": "mirror.gcr.io/library/node@sha256:116b800c3754b440ee0aa3ed2f20f5bf3d99a554bfd9adeea09ea8017f6e85f5",
+    "COMPOSE_PYTHON_BASE": "mirror.gcr.io/library/python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b"
+  },
+  "build_attempts": 1,
+  "healthy_services": [
+    "api",
+    "db",
+    "web"
+  ],
+  "health": {
+    "status": "ok",
+    "mode": "Demo",
+    "learning_mode": "demo",
+    "chat_mode": "demo",
+    "database": "postgresql",
+    "ocr": false
+  },
+  "private_upload_download_sha256": "9c232deae6ccc6d792dd5ac6fe7893e219405247e04d0ddf45525c583f207c38",
+  "restart_preserves_session_save_and_file": true,
+  "browser_exit_code": 0,
+  "backup_restore_row_counts": "3|5|5|4",
+  "backup_restore_counts_match": true,
+  "backup_restore_file_and_save_match": true,
+  "containers_stopped": true,
+  "wsl_keepalive_stopped": true,
+  "test_volumes_retained": true
+}

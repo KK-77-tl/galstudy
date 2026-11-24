@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "description": "Server-owned template. Configure licensed models, nodes and ten outputs before enabling.",
+  "prompt": {},
+  "bindings": {
+    "reference_image": {"node_id": "", "input": "image"},
+    "positive_prompt": {"node_id": "", "input": "text"},
+    "seed": {"node_id": "", "input": "seed"}
+  },
+  "output_node_ids": []
+}

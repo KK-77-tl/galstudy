@@ -1,0 +1,3 @@
+# Optional cryptography for the bounded Alipay adapter. Base app stays Mock.
+rsa==4.9.1
+pyasn1==0.6.5

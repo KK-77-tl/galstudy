@@ -1,0 +1,38 @@
+{
+  "platform": "win32",
+  "python": "3.12.4",
+  "logical_cpu": 24,
+  "ram_gib": 15.7,
+  "sample_interval_ms": 10,
+  "runs_per_file": 1,
+  "docling": "未测试，未安装 Docling 或其模型",
+  "results": [
+    {
+      "file": "original.pdf",
+      "process_seconds": 0.9570386999985203,
+      "sampled_peak_rss_mib": 59.45,
+      "cpu_seconds": 0.75,
+      "parse_seconds": 0.0025043000059667975,
+      "chunks": 1,
+      "characters": 127
+    },
+    {
+      "file": "original.pptx",
+      "process_seconds": 1.0155945000005886,
+      "sampled_peak_rss_mib": 61.41,
+      "cpu_seconds": 0.703125,
+      "parse_seconds": 0.021923899999819696,
+      "chunks": 2,
+      "characters": 85
+    },
+    {
+      "file": "original.docx",
+      "process_seconds": 0.9809293999860529,
+      "sampled_peak_rss_mib": 64.39,
+      "cpu_seconds": 0.640625,
+      "parse_seconds": 0.023885399976279587,
+      "chunks": 3,
+      "characters": 89
+    }
+  ]
+}

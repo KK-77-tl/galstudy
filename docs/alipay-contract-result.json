@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "sdk": "3.7.1411",
+  "network_calls": 0,
+  "real_transactions": 0,
+  "keys": "ephemeral synthetic; not saved",
+  "checks": [
+    {
+      "name": "official_sdk_checkout_rsa2",
+      "passed": true
+    },
+    {
+      "name": "sandbox_gateway",
+      "passed": true
+    },
+    {
+      "name": "server_order_amount",
+      "passed": true
+    },
+    {
+      "name": "valid_rsa2_notification",
+      "passed": true
+    },
+    {
+      "name": "wrong_app_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "wrong_seller_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "wrong_order_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "wrong_amount_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "float_exponent_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "excess_precision_rejected_even_when_signed",
+      "passed": true
+    },
+    {
+      "name": "merchant_key_cannot_impersonate_alipay_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_field_rejected",
+      "passed": true
+    },
+    {
+      "name": "tampered_rejected",
+      "passed": true
+    },
+    {
+      "name": "sha1_labelled_rsa2_rejected",
+      "passed": true
+    },
+    {
+      "name": "closed_notice_never_paid",
+      "passed": true
+    }
+  ],
+  "sdk_generic_verifier_accepts_sha1": true
+}

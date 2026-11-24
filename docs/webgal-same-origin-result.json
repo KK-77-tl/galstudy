@@ -1,0 +1,883 @@
+{
+  "status": "passed",
+  "created_at": "2026-11-17T12:20:04.440819+00:00",
+  "engine": "WebGAL 4.6.7",
+  "host": "Next.js production build, React client component, same-origin iframe",
+  "heap_samples": [
+    {
+      "label": "host_before_mount",
+      "js_heap_used_bytes": 2069476,
+      "documents": 1,
+      "frames": 1,
+      "cumulative_task_seconds": 0.006248,
+      "cumulative_script_seconds": 0
+    },
+    {
+      "label": "webgal_quiz",
+      "js_heap_used_bytes": 10928504,
+      "documents": 3,
+      "frames": 2,
+      "cumulative_task_seconds": 1.74716,
+      "cumulative_script_seconds": 0.860968
+    },
+    {
+      "label": "after_unmount_1",
+      "js_heap_used_bytes": 3915452,
+      "documents": 1,
+      "frames": 1,
+      "cumulative_task_seconds": 1.804553,
+      "cumulative_script_seconds": 0.873561
+    },
+    {
+      "label": "after_unmount_2",
+      "js_heap_used_bytes": 3979336,
+      "documents": 1,
+      "frames": 1,
+      "cumulative_task_seconds": 3.014774,
+      "cumulative_script_seconds": 1.443837
+    },
+    {
+      "label": "after_unmount_3",
+      "js_heap_used_bytes": 4017440,
+      "documents": 1,
+      "frames": 1,
+      "cumulative_task_seconds": 4.655209,
+      "cumulative_script_seconds": 2.171245
+    },
+    {
+      "label": "custom_quiz",
+      "js_heap_used_bytes": 4803832,
+      "documents": 1,
+      "frames": 1,
+      "cumulative_task_seconds": 0.015805,
+      "cumulative_script_seconds": 0
+    }
+  ],
+  "heap_scope": "CDP JSHeapUsedSize after explicit GC, excludes native and GPU memory",
+  "cpu_scope": "Counters since Performance.enable, distinct interaction paths, unsuitable for cross-route CPU comparison",
+  "resource_scope": "Resource Timing decoded bodies, includes repeated requests, excludes navigation HTML",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "real_model_calls": 0,
+  "real_payments": 0,
+  "scratch_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\webgal-d210fabbb75e405dadfc181592099822",
+  "limitations": [
+    "DOM-class choice bridge is specific to WebGAL 4.6.7",
+    "Server save restores a graph node, excludes native engine saves and mid-line state",
+    "Two generated expression variants, additional expressions use their default sprite",
+    "Public fixed Demo scripts may be prefetched, private course story streaming is untested",
+    "Optional Live2D scripts absent from upstream archive return 404",
+    "Three unmount samples do not establish absence of leaks"
+  ],
+  "versions": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "browser": "157.0.4341.60",
+  "prefetch_preserved_start": true,
+  "rejected_click_preserved_stage_and_save": true,
+  "webgal_resources": [
+    {
+      "path": "/engine/assets/index-D1gOT527.js",
+      "decoded_body_bytes": 1567770,
+      "encoded_body_bytes": 448927,
+      "transfer_bytes": 449227,
+      "duration_ms": 99.39999997615814
+    },
+    {
+      "path": "/engine/assets/index-Dch1g2w9.css",
+      "decoded_body_bytes": 47833,
+      "encoded_body_bytes": 9846,
+      "transfer_bytes": 10146,
+      "duration_ms": 9.399999976158142
+    },
+    {
+      "path": "/engine/assets/SourceHanSerifCN-Regular-B_f-kQ2u.ttf",
+      "decoded_body_bytes": 13013172,
+      "encoded_body_bytes": 13013172,
+      "transfer_bytes": 13013472,
+      "duration_ms": 76
+    },
+    {
+      "path": "/engine/lib/live2d.min.js",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 10.299999952316284
+    },
+    {
+      "path": "/engine/lib/live2dcubismcore.min.js",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 17.5
+    },
+    {
+      "path": "/engine/assets/initRegister-CKWY_60C.js",
+      "decoded_body_bytes": 6183,
+      "encoded_body_bytes": 1866,
+      "transfer_bytes": 2166,
+      "duration_ms": 7.100000023841858
+    },
+    {
+      "path": "/engine/assets/OPPOSans-R-tAcFw8I3.ttf",
+      "decoded_body_bytes": 10152780,
+      "encoded_body_bytes": 10152780,
+      "transfer_bytes": 10153080,
+      "duration_ms": 71.30000001192093
+    },
+    {
+      "path": "/engine/game/template/template.json",
+      "decoded_body_bytes": 53,
+      "encoded_body_bytes": 53,
+      "transfer_bytes": 353,
+      "duration_ms": 19.900000035762787
+    },
+    {
+      "path": "/engine/game/userStyleSheet.css",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 20.5
+    },
+    {
+      "path": "/engine/game/animation/animationTable.json",
+      "decoded_body_bytes": 2,
+      "encoded_body_bytes": 2,
+      "transfer_bytes": 302,
+      "duration_ms": 21.700000047683716
+    },
+    {
+      "path": "/engine/game/scene/start.txt",
+      "decoded_body_bytes": 328,
+      "encoded_body_bytes": 328,
+      "transfer_bytes": 628,
+      "duration_ms": 28.80000001192093
+    },
+    {
+      "path": "/engine/game/config.txt",
+      "decoded_body_bytes": 155,
+      "encoded_body_bytes": 155,
+      "transfer_bytes": 455,
+      "duration_ms": 20.399999976158142
+    },
+    {
+      "path": "/engine/assets/ResourceHanRoundedCN-Regular-C1HdCLVq.ttf",
+      "decoded_body_bytes": 14663464,
+      "encoded_body_bytes": 14663464,
+      "transfer_bytes": 14663764,
+      "duration_ms": 175.80000001192093
+    },
+    {
+      "path": "/engine/game/template/UI/Title/title.scss",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 10.599999964237213
+    },
+    {
+      "path": "/engine/game/template/Stage/TextBox/textbox.scss",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 10.600000023841858
+    },
+    {
+      "path": "/engine/game/template/Stage/Choose/choose.scss",
+      "decoded_body_bytes": 0,
+      "encoded_body_bytes": 0,
+      "transfer_bytes": 300,
+      "duration_ms": 11.200000047683716
+    },
+    {
+      "path": "/engine/game/background/classroom.webp",
+      "decoded_body_bytes": 244984,
+      "encoded_body_bytes": 244984,
+      "transfer_bytes": 245284,
+      "duration_ms": 35.5
+    },
+    {
+      "path": "/engine/game/background/classroom.webp",
+      "decoded_body_bytes": 244984,
+      "encoded_body_bytes": 244984,
+      "transfer_bytes": 245284,
+      "duration_ms": 6.600000023841858
+    },
+    {
+      "path": "/engine/game/background/classroom.webp",
+      "decoded_body_bytes": 244984,
+      "encoded_body_bytes": 244984,
+      "transfer_bytes": 245284,
+      "duration_ms": 6.099999964237213
+    },
+    {
+      "path": "/engine/game/scene/start.txt",
+      "decoded_body_bytes": 328,
+      "encoded_body_bytes": 328,
+      "transfer_bytes": 628,
+      "duration_ms": 16.69999998807907
+    },
+    {
+      "path": "/engine/game/figure/shiori.png",
+      "decoded_body_bytes": 2287473,
+      "encoded_body_bytes": 2287473,
+      "transfer_bytes": 2287773,
+      "duration_ms": 64.39999997615814
+    },
+    {
+      "path": "/engine/game/figure/shiori.png",
+      "decoded_body_bytes": 2287473,
+      "encoded_body_bytes": 2287473,
+      "transfer_bytes": 2287773,
+      "duration_ms": 31.19999998807907
+    },
+    {
+      "path": "/engine/game/scene/step-start-concept.txt",
+      "decoded_body_bytes": 287,
+      "encoded_body_bytes": 287,
+      "transfer_bytes": 587,
+      "duration_ms": 6.300000011920929
+    },
+    {
+      "path": "/engine/game/background/classroom.webp",
+      "decoded_body_bytes": 244984,
+      "encoded_body_bytes": 244984,
+      "transfer_bytes": 245284,
+      "duration_ms": 6.399999976158142
+    },
+    {
+      "path": "/engine/game/scene/step-start-practice.txt",
+      "decoded_body_bytes": 270,
+      "encoded_body_bytes": 270,
+      "transfer_bytes": 570,
+      "duration_ms": 7.199999988079071
+    },
+    {
+      "path": "/engine/game/figure/shiori.png",
+      "decoded_body_bytes": 2287473,
+      "encoded_body_bytes": 2287473,
+      "transfer_bytes": 2287773,
+      "duration_ms": 16.600000023841858
+    },
+    {
+      "path": "/engine/game/figure/haruka.png",
+      "decoded_body_bytes": 1982211,
+      "encoded_body_bytes": 1982211,
+      "transfer_bytes": 1982511,
+      "duration_ms": 18
+    },
+    {
+      "path": "/engine/game/scene/step-start-concept.txt",
+      "decoded_body_bytes": 287,
+      "encoded_body_bytes": 287,
+      "transfer_bytes": 587,
+      "duration_ms": 3.799999952316284
+    },
+    {
+      "path": "/engine/game/scene/step-concept-next.txt",
+      "decoded_body_bytes": 254,
+      "encoded_body_bytes": 254,
+      "transfer_bytes": 554,
+      "duration_ms": 4.299999952316284
+    },
+    {
+      "path": "/engine/game/background/library.webp",
+      "decoded_body_bytes": 317496,
+      "encoded_body_bytes": 317496,
+      "transfer_bytes": 317796,
+      "duration_ms": 6.399999976158142
+    },
+    {
+      "path": "/engine/game/scene/step-concept-next.txt",
+      "decoded_body_bytes": 254,
+      "encoded_body_bytes": 254,
+      "transfer_bytes": 554,
+      "duration_ms": 5.300000011920929
+    },
+    {
+      "path": "/engine/game/background/library.webp",
+      "decoded_body_bytes": 317496,
+      "encoded_body_bytes": 317496,
+      "transfer_bytes": 317796,
+      "duration_ms": 9.099999964237213
+    },
+    {
+      "path": "/engine/game/figure/haruka.png",
+      "decoded_body_bytes": 1982211,
+      "encoded_body_bytes": 1982211,
+      "transfer_bytes": 1982511,
+      "duration_ms": 24.700000047683716
+    },
+    {
+      "path": "/engine/game/background/library.webp",
+      "decoded_body_bytes": 317496,
+      "encoded_body_bytes": 317496,
+      "transfer_bytes": 317796,
+      "duration_ms": 26.599999964237213
+    },
+    {
+      "path": "/engine/game/scene/step-quiz-recall.txt",
+      "decoded_body_bytes": 229,
+      "encoded_body_bytes": 229,
+      "transfer_bytes": 529,
+      "duration_ms": 5.199999988079071
+    },
+    {
+      "path": "/engine/game/figure/shiori-happy.png",
+      "decoded_body_bytes": 2255150,
+      "encoded_body_bytes": 2255150,
+      "transfer_bytes": 2255450,
+      "duration_ms": 35.40000003576279
+    },
+    {
+      "path": "/engine/game/scene/step-quiz-reread.txt",
+      "decoded_body_bytes": 296,
+      "encoded_body_bytes": 296,
+      "transfer_bytes": 596,
+      "duration_ms": 5
+    },
+    {
+      "path": "/engine/game/figure/haruka-gentle.png",
+      "decoded_body_bytes": 1901612,
+      "encoded_body_bytes": 1901612,
+      "transfer_bytes": 1901912,
+      "duration_ms": 32.89999997615814
+    }
+  ],
+  "webgal_host_resources": [
+    {
+      "path": "/_next/static/chunks/webpack-5a0f8a33ac19cdba.js",
+      "decoded_body_bytes": 3404,
+      "encoded_body_bytes": 1743,
+      "transfer_bytes": 2043,
+      "duration_ms": 12.600000023841858
+    },
+    {
+      "path": "/_next/static/chunks/8efd6a95-d2261cae18236317.js",
+      "decoded_body_bytes": 203721,
+      "encoded_body_bytes": 64059,
+      "transfer_bytes": 64359,
+      "duration_ms": 19.5
+    },
+    {
+      "path": "/_next/static/chunks/872-3b824f037a0fd9b8.js",
+      "decoded_body_bytes": 241751,
+      "encoded_body_bytes": 66789,
+      "transfer_bytes": 67089,
+      "duration_ms": 17
+    },
+    {
+      "path": "/_next/static/chunks/main-app-e95ec4338e714339.js",
+      "decoded_body_bytes": 514,
+      "encoded_body_bytes": 514,
+      "transfer_bytes": 814,
+      "duration_ms": 11
+    },
+    {
+      "path": "/_next/static/chunks/app/page-fad9a5fbea7904e3.js",
+      "decoded_body_bytes": 2097,
+      "encoded_body_bytes": 1108,
+      "transfer_bytes": 1408,
+      "duration_ms": 13.200000047683716
+    },
+    {
+      "path": "/favicon.ico",
+      "decoded_body_bytes": 9,
+      "encoded_body_bytes": 9,
+      "transfer_bytes": 309,
+      "duration_ms": 3.699999988079071
+    },
+    {
+      "path": "/engine/index.html",
+      "decoded_body_bytes": 19013,
+      "encoded_body_bytes": 5173,
+      "transfer_bytes": 5473,
+      "duration_ms": 128.89999997615814
+    },
+    {
+      "path": "/favicon.ico",
+      "decoded_body_bytes": 9,
+      "encoded_body_bytes": 9,
+      "transfer_bytes": 309,
+      "duration_ms": 2.099999964237213
+    },
+    {
+      "path": "/current",
+      "decoded_body_bytes": 492,
+      "encoded_body_bytes": 492,
+      "transfer_bytes": 792,
+      "duration_ms": 13.800000011920929
+    },
+    {
+      "path": "/current",
+      "decoded_body_bytes": 492,
+      "encoded_body_bytes": 492,
+      "transfer_bytes": 792,
+      "duration_ms": 9.399999976158142
+    },
+    {
+      "path": "/advance",
+      "decoded_body_bytes": 486,
+      "encoded_body_bytes": 486,
+      "transfer_bytes": 786,
+      "duration_ms": 19.69999998807907
+    },
+    {
+      "path": "/current",
+      "decoded_body_bytes": 447,
+      "encoded_body_bytes": 447,
+      "transfer_bytes": 747,
+      "duration_ms": 15
+    },
+    {
+      "path": "/advance",
+      "decoded_body_bytes": 458,
+      "encoded_body_bytes": 458,
+      "transfer_bytes": 758,
+      "duration_ms": 25.80000001192093
+    }
+  ],
+  "resume_node": "quiz",
+  "resume_version": 2,
+  "page_errors": [],
+  "http_errors": [
+    {
+      "url": "/engine/lib/live2d.min.js",
+      "status": 404
+    },
+    {
+      "url": "/engine/lib/live2dcubismcore.min.js",
+      "status": 404
+    },
+    {
+      "url": "/advance",
+      "status": 409
+    },
+    {
+      "url": "/engine/lib/live2dcubismcore.min.js",
+      "status": 404
+    },
+    {
+      "url": "/engine/lib/live2d.min.js",
+      "status": 404
+    },
+    {
+      "url": "/engine/lib/live2d.min.js",
+      "status": 404
+    },
+    {
+      "url": "/engine/lib/live2dcubismcore.min.js",
+      "status": 404
+    }
+  ],
+  "custom_resources": [
+    {
+      "path": "/assets/classroom.webp",
+      "decoded_body_bytes": 244984,
+      "encoded_body_bytes": 244984,
+      "transfer_bytes": 245284,
+      "duration_ms": 8.5
+    },
+    {
+      "path": "/_next/static/css/52c77858d194c96d.css",
+      "decoded_body_bytes": 31629,
+      "encoded_body_bytes": 8204,
+      "transfer_bytes": 8504,
+      "duration_ms": 21.80000001192093
+    },
+    {
+      "path": "/assets/shiori.png",
+      "decoded_body_bytes": 2287473,
+      "encoded_body_bytes": 2287473,
+      "transfer_bytes": 2287773,
+      "duration_ms": 28.600000023841858
+    },
+    {
+      "path": "/_next/static/chunks/webpack-5a0f8a33ac19cdba.js",
+      "decoded_body_bytes": 3404,
+      "encoded_body_bytes": 1743,
+      "transfer_bytes": 2043,
+      "duration_ms": 21.899999976158142
+    },
+    {
+      "path": "/_next/static/chunks/main-app-e95ec4338e714339.js",
+      "decoded_body_bytes": 514,
+      "encoded_body_bytes": 514,
+      "transfer_bytes": 814,
+      "duration_ms": 16.80000001192093
+    },
+    {
+      "path": "/_next/static/chunks/872-3b824f037a0fd9b8.js",
+      "decoded_body_bytes": 241751,
+      "encoded_body_bytes": 66789,
+      "transfer_bytes": 67089,
+      "duration_ms": 32.60000002384186
+    },
+    {
+      "path": "/_next/static/chunks/8efd6a95-d2261cae18236317.js",
+      "decoded_body_bytes": 203721,
+      "encoded_body_bytes": 64059,
+      "transfer_bytes": 64359,
+      "duration_ms": 31.600000023841858
+    },
+    {
+      "path": "/_next/static/chunks/168-0a0568c82170021c.js",
+      "decoded_body_bytes": 91004,
+      "encoded_body_bytes": 26545,
+      "transfer_bytes": 26845,
+      "duration_ms": 32.30000001192093
+    },
+    {
+      "path": "/_next/static/chunks/app/custom/page-672d920d88a7cc45.js",
+      "decoded_body_bytes": 48493,
+      "encoded_body_bytes": 14724,
+      "transfer_bytes": 15024,
+      "duration_ms": 30.899999976158142
+    },
+    {
+      "path": "/api/auth/me",
+      "decoded_body_bytes": 85,
+      "encoded_body_bytes": 85,
+      "transfer_bytes": 385,
+      "duration_ms": 9.399999976158142
+    },
+    {
+      "path": "/api/courses",
+      "decoded_body_bytes": 94,
+      "encoded_body_bytes": 94,
+      "transfer_bytes": 394,
+      "duration_ms": 13.399999976158142
+    },
+    {
+      "path": "/api/characters",
+      "decoded_body_bytes": 733,
+      "encoded_body_bytes": 733,
+      "transfer_bytes": 1033,
+      "duration_ms": 15.300000011920929
+    },
+    {
+      "path": "/api/courses/5f4f56af-a1bc-4e1e-8308-363f9f35a413",
+      "decoded_body_bytes": 328,
+      "encoded_body_bytes": 328,
+      "transfer_bytes": 628,
+      "duration_ms": 21.69999998807907
+    },
+    {
+      "path": "/api/courses/5f4f56af-a1bc-4e1e-8308-363f9f35a413",
+      "decoded_body_bytes": 328,
+      "encoded_body_bytes": 328,
+      "transfer_bytes": 628,
+      "duration_ms": 14
+    },
+    {
+      "path": "/api/courses/5f4f56af-a1bc-4e1e-8308-363f9f35a413/play",
+      "decoded_body_bytes": 492,
+      "encoded_body_bytes": 492,
+      "transfer_bytes": 792,
+      "duration_ms": 11.100000023841858
+    },
+    {
+      "path": "/api/courses/5f4f56af-a1bc-4e1e-8308-363f9f35a413/play",
+      "decoded_body_bytes": 486,
+      "encoded_body_bytes": 486,
+      "transfer_bytes": 786,
+      "duration_ms": 17.400000035762787
+    },
+    {
+      "path": "/api/courses/5f4f56af-a1bc-4e1e-8308-363f9f35a413/play",
+      "decoded_body_bytes": 459,
+      "encoded_body_bytes": 459,
+      "transfer_bytes": 759,
+      "duration_ms": 24
+    },
+    {
+      "path": "/assets/library.webp",
+      "decoded_body_bytes": 317496,
+      "encoded_body_bytes": 317496,
+      "transfer_bytes": 317796,
+      "duration_ms": 8.899999976158142
+    },
+    {
+      "path": "/assets/haruka.png",
+      "decoded_body_bytes": 1982211,
+      "encoded_body_bytes": 1982211,
+      "transfer_bytes": 1982511,
+      "duration_ms": 15.199999988079071
+    }
+  ],
+  "custom_page_errors": [],
+  "events": [
+    {
+      "choice": "concept",
+      "question": false,
+      "node": "concept",
+      "score": 0,
+      "version": 1,
+      "feedback_present": false
+    },
+    {
+      "choice": "next",
+      "question": false,
+      "node": "quiz",
+      "score": 0,
+      "version": 2,
+      "feedback_present": false
+    },
+    {
+      "choice": "recall",
+      "question": true,
+      "node": "success",
+      "score": 1,
+      "version": 3,
+      "feedback_present": true
+    },
+    {
+      "choice": "practice",
+      "question": false,
+      "node": "practice",
+      "score": 0,
+      "version": 5,
+      "feedback_present": false
+    },
+    {
+      "choice": "next",
+      "question": false,
+      "node": "quiz",
+      "score": 0,
+      "version": 6,
+      "feedback_present": false
+    },
+    {
+      "choice": "reread",
+      "question": true,
+      "node": "review",
+      "score": 0,
+      "version": 7,
+      "feedback_present": true
+    }
+  ],
+  "reads": [
+    {
+      "parent": "start",
+      "choice": "concept"
+    },
+    {
+      "parent": "start",
+      "choice": "practice"
+    },
+    {
+      "parent": "start",
+      "choice": "concept"
+    },
+    {
+      "parent": "concept",
+      "choice": "next"
+    },
+    {
+      "parent": "concept",
+      "choice": "next"
+    },
+    {
+      "parent": "quiz",
+      "choice": "recall"
+    },
+    {
+      "parent": "quiz",
+      "choice": "reread"
+    },
+    {
+      "parent": "quiz",
+      "choice": "recall"
+    },
+    {
+      "parent": "quiz",
+      "choice": "reread"
+    },
+    {
+      "parent": "quiz",
+      "choice": "recall"
+    },
+    {
+      "parent": "start",
+      "choice": "concept"
+    },
+    {
+      "parent": "start",
+      "choice": "practice"
+    },
+    {
+      "parent": "start",
+      "choice": "practice"
+    },
+    {
+      "parent": "practice",
+      "choice": "next"
+    },
+    {
+      "parent": "practice",
+      "choice": "next"
+    },
+    {
+      "parent": "quiz",
+      "choice": "recall"
+    },
+    {
+      "parent": "quiz",
+      "choice": "reread"
+    },
+    {
+      "parent": "quiz",
+      "choice": "reread"
+    }
+  ],
+  "statuses": [
+    409,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "reject_next": false,
+  "engine_archive_bytes": 52842728,
+  "engine_archive_sha256": "7baf45d78e5c5924a08fcd1974e776452b71b5477d8a6449e4e967c845b95578",
+  "engine_files": [
+    {
+      "path": "assets/characterAssets-MHVloydq.js",
+      "bytes": 1059,
+      "sha256": "58691c40f949c745247051fb4c87df5182e31834e3c6aaa9e8c40f643b29df89"
+    },
+    {
+      "path": "assets/cherryBlossoms-DzBBkOW8.webp",
+      "bytes": 13706,
+      "sha256": "56cf09c9a41863994f7000786d8972b03dcc214f692c479b78962608109bb0e3"
+    },
+    {
+      "path": "assets/dialog-BDvwibdp.mp3",
+      "bytes": 14881,
+      "sha256": "d5b912353085e44e2fd975dfbfbe6561c38d1c3705687b22bb9bd065791e6bfe"
+    },
+    {
+      "path": "assets/index-D1gOT527.js",
+      "bytes": 1567770,
+      "sha256": "53aa6a9420802cd7f21b41e19f433b7d49e7faf7e7380af87cd1214792994323"
+    },
+    {
+      "path": "assets/index-Dch1g2w9.css",
+      "bytes": 47833,
+      "sha256": "ea9ea5a2be73a70eb62a83976394862149755450ca84d20870d76b6192299cb7"
+    },
+    {
+      "path": "assets/index.es-CJYZx7uN.js",
+      "bytes": 129640,
+      "sha256": "b9769b7691597675f6cb318d3a3baf52f037ee35bd2e49eeedcb8e5e7be7363f"
+    },
+    {
+      "path": "assets/initRegister-CKWY_60C.js",
+      "bytes": 6183,
+      "sha256": "ac7cf1f6912a1c7c6ee78ac7d829bcedf6af178f2db9e86e1e67dfbfb8ef63a0"
+    },
+    {
+      "path": "assets/live2dAssets-CtD5cwoq.js",
+      "bytes": 795,
+      "sha256": "bf763b1a78377e2380d7a6bf919eb7cebe67fa3eb456749114d4be11a7d8508b"
+    },
+    {
+      "path": "assets/OPPOSans-R-tAcFw8I3.ttf",
+      "bytes": 10152780,
+      "sha256": "ea92535935f8b5da18b64bb23e5ffbfef1417b7ae4ff3fc15372a65ee95a9580"
+    },
+    {
+      "path": "assets/page-flip-1-CZ8VQh4O.mp3",
+      "bytes": 14965,
+      "sha256": "7df32409e65c6c56707f030a59327de24865e24ad38e243a9ad4a604f4a19161"
+    },
+    {
+      "path": "assets/rain-Bd8ZRQ7x.png",
+      "bytes": 37390,
+      "sha256": "e0935c5335c65986437f2c2e0e7c7cdc3c6bd1e603edf6acf6bf8d232331bb4a"
+    },
+    {
+      "path": "assets/ResourceHanRoundedCN-Regular-C1HdCLVq.ttf",
+      "bytes": 14663464,
+      "sha256": "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
+    },
+    {
+      "path": "assets/snow-CJh9m2KR.png",
+      "bytes": 27182,
+      "sha256": "5313a7b0259c483f1329b57c2d2744fe4ee506163a7876b3c8a6111ba8e01978"
+    },
+    {
+      "path": "assets/SourceHanSerifCN-Regular-B_f-kQ2u.ttf",
+      "bytes": 13013172,
+      "sha256": "1e60cc2eedfa25bf5e4ecaa794402f581ad770d4c8be46d338bf52064b307ec7"
+    },
+    {
+      "path": "assets/spineAssets-5ANFm6vp.js",
+      "bytes": 1090,
+      "sha256": "e474239764765d4eab40f008bf8a32e4a05948c665a129b02536acfcab7705cf"
+    },
+    {
+      "path": "assets/switch-1-DI-7VpPw.mp3",
+      "bytes": 9325,
+      "sha256": "99b576bc49cf679b735460e30f1b97f7a07e9f3dc053c266a27d6b719f5e8b5b"
+    },
+    {
+      "path": "icons/apple-touch-icon.png",
+      "bytes": 7401,
+      "sha256": "70a18bebb25a322c85bae9fb3467225924f1b156ac8c99c4c6bfa3d81bad3a84"
+    },
+    {
+      "path": "icons/favicon.ico",
+      "bytes": 22023,
+      "sha256": "a0f5bb8c7e6945415b0602aeab39eb85dc85192c578462e8163b558a882e8d6b"
+    },
+    {
+      "path": "icons/icon-192-maskable.png",
+      "bytes": 6995,
+      "sha256": "ce7cd657d8a163b390556cf6ca71d10f167ae51da684991a15f09d78de8666b6"
+    },
+    {
+      "path": "icons/icon-192.png",
+      "bytes": 10248,
+      "sha256": "b043acf2d9bba1a8625649fbbca4ffb7e027ca023320cac5c57b500edcbd2299"
+    },
+    {
+      "path": "icons/icon-512-maskable.png",
+      "bytes": 25792,
+      "sha256": "f2bd73382461f7ed963a8c6044333e0acf5e8afad9a47fddfec8c7fb46278c97"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "bytes": 23209,
+      "sha256": "6a7073ddb62dd5ce5f4324d45fcea5a487b67a7f1d17951d4dc61d0fb3475994"
+    },
+    {
+      "path": "index.html",
+      "bytes": 19013,
+      "sha256": "0a56bafe39f90fa02885cee633e42a3bcbe7b96dd966b8d41ba75cd061bc949b"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 675,
+      "sha256": "8a960e2bf1add4540abed421b860606a612689e594fcf228f205aa2ea07a7c11"
+    },
+    {
+      "path": "webgal-engine.json",
+      "bytes": 1284,
+      "sha256": "de74c89c388cef737611d8c9f978f18d5659211239dda03984ef81e7afbb7e78"
+    },
+    {
+      "path": "webgal-serviceworker.js",
+      "bytes": 1830,
+      "sha256": "317a4d6599c5d97c82ad18faa2b216457e9eff4f6e256a1f92acd1ec0f86fa42"
+    }
+  ],
+  "next_stopped": true,
+  "fixture_stopped": true,
+  "api_context_closed": true
+}

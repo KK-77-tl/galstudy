@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "command": ".venv/Scripts/python.exe -m pytest tests -q",
+  "tests_passed": 65,
+  "seconds": 37.33,
+  "alipay_gateway_tests": 10,
+  "payment_network": "MockTransport only",
+  "real_transactions": 0,
+  "sdk_installation": "completed",
+  "pip_check_main": "passed",
+  "pip_check_alipay_env": "passed"
+}

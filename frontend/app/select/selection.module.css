@@ -1,0 +1,30 @@
+.selection { min-height: 100svh; background: #000; color: #e9dfc9; padding: 22px clamp(24px, 6vw, 100px) 25px; font-family: "Songti SC", "SimSun", serif; }
+.selection::before { content: ""; position: fixed; inset: 0; z-index: 50; background: #000; opacity: 0; pointer-events: none; transition: opacity .5s; }
+.selection[data-leaving="true"] { pointer-events: none; }
+.selection[data-leaving="true"]::before { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .selection::before { transition-duration: .1s; } }
+.header { display: flex; justify-content: space-between; align-items: center; }
+.header img { width: 166px; height: auto; }
+.replay { color: #aaa28e; font-family: "Microsoft YaHei", sans-serif; font-size: 12px; letter-spacing: .1em; text-decoration: none; padding: 12px; }
+.replay span { margin-left: 8px; }
+.content { max-width: 930px; margin: 42px auto 50px; text-align: center; }
+.eyebrow { color: #b5a37e; font-size: 12px; letter-spacing: .32em; }
+.content h1 { font-size: clamp(26px, 3vw, 38px); font-weight: 400; letter-spacing: .18em; margin: 20px 0 16px; }
+.description { color: #a09c8e; font-size: 13px; letter-spacing: .12em; }
+.options { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 44px; }
+.option { display: block; position: relative; overflow: hidden; height: 350px; border: 1px solid #615c45; border-radius: 2px; text-decoration: none; color: inherit; text-align: left; background: #1d211b; }
+.scene { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: .65; }
+.option::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent, #0c100dd9 65%, #0c100d); }
+.optionText { position: absolute; inset: auto 30px 28px; z-index: 1; display: flex; flex-direction: column; gap: 13px; font-size: 12px; letter-spacing: .08em; color: #c4bfad; }
+.optionText strong { font-size: 30px; letter-spacing: .18em; font-weight: 400; color: #f0e3c6; }
+.caption { font-size: 11px; color: #dfcea5; letter-spacing: .2em; }
+.enter { margin-top: 9px; padding-top: 17px; border-top: 1px solid #b7a6794d; display: flex; justify-content: space-between; color: #dfcea5; }
+.option:hover, .option:focus-visible { border-color: #cbbb90; outline: 1px solid #cbbb90; outline-offset: 4px; }
+.footer { text-align: center; font-size: 11px; letter-spacing: .2em; color: #827e6f; }
+@media (max-width: 600px) {
+  .header img { width: 125px; }
+  .content { margin-top: 32px; }
+  .options { grid-template-columns: 1fr; gap: 20px; margin-top: 30px; }
+  .option { height: 270px; }
+  .optionText { inset: auto 24px 24px; }
+}

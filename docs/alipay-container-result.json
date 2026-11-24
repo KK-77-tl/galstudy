@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "image": "galstudycheck6b94f1cbb076-api",
+  "network": "disabled",
+  "real_transactions": 0,
+  "scope": "synthetic read-only key mount and configured provider in actual API container",
+  "exit_code": 0,
+  "container": {
+    "mode": "alipay_sandbox",
+    "nonroot": true,
+    "rsa": "4.9.1",
+    "key_loading": "passed",
+    "checkout_signing": "passed"
+  }
+}

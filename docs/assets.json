@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "purpose": "AI-generated original demonstration assets",
+  "assets": [
+    {
+      "file": "frontend/public/assets/classroom.webp",
+      "original": "frontend/public/assets/classroom-original.png",
+      "transparent": false,
+      "prompt": "Create one wide landscape 16:9 original Japanese visual novel game background. Beautiful empty university classroom, late afternoon sunlight through tall windows on the left, cherry blossom trees outside, wooden desks, books and a small green plant, distant chalkboard to right. Painterly high quality anime background art, refined detailed architecture, warm cream pastel pink and muted sage colors, peaceful nostalgic study atmosphere. No people, no text, no logos. Save final output for use as website game background."
+    },
+    {
+      "file": "frontend/public/assets/shiori.png",
+      "transparent": true,
+      "prompt": "Original Japanese visual novel character sprite, one young adult female university student age 20, full body from head to mid-thigh, isolated on truly transparent background. Long flowing dark brown hair with small muted rose hair ribbon, warm amber eyes, gentle welcoming smile, cream cardigan over white blouse with rose ribbon tie, dark pleated skirt, holding an open notebook close to chest. Elegant detailed anime illustration with delicate linework and polished soft shading, warm afternoon lighting. Front-facing three quarter stance. No scene, no text, no watermark, no existing copyrighted characters. Production game sprite."
+    },
+    {
+      "file": "frontend/public/assets/haruka.png",
+      "transparent": true,
+      "prompt": "Original Japanese visual novel character sprite of Haruka, young adult male university student age 21. One character isolated on truly transparent background, head to mid-thigh portrait, front three quarter view, short slightly tousled blue black hair, clear blue gray eyes, thoughtful serious but kind expression, one hand at chin and other holding a closed navy textbook. White shirt, dark muted sage sweater vest, neat gray trousers. Elegant anime illustration delicate linework, polished soft cel shading, warm daylight, same production quality as a classic Japanese campus visual novel. No scene no text no logo no existing characters."
+    },
+    {
+      "file": "frontend/public/assets/library.webp",
+      "original": "frontend/public/assets/library-original.png",
+      "transparent": false,
+      "prompt": "Original Japanese visual novel game background, wide landscape 16:9, empty university library reading room in late afternoon. Tall wooden bookshelves full of books, large reading tables, warm sunlight from high arched windows on the left, green desk lamps, peaceful cream sage and amber palette, detailed painterly anime background art with beautiful atmospheric perspective. No people, no text, no logos."
+    },
+    {
+      "file": "frontend/public/assets/rin.png",
+      "transparent": true,
+      "prompt": "Original Japanese visual novel university companion character sprite, one young adult woman age 21 named Rin. Head to mid-thigh portrait on truly transparent background. Shoulder length softly wavy auburn hair, small sage green hair clip, bright hazel eyes, cheerful confident smile, cream blouse under muted rose cardigan and navy skirt, holding a few pastel index cards in one hand and lifting other hand in a friendly greeting. Elegant finely detailed anime illustration, delicate linework, polished soft shading, warm daylight. Original campus character, no existing franchise. No scene no text no logo."
+    },
+    {
+      "file": "frontend/public/assets/shiori-happy.png",
+      "reference": "frontend/public/assets/shiori.png",
+      "generated_original": "C:\\Users\\Lenovo\\.codex\\generated_images\\01a1e432-1ce3-7251-980f-c1b7b2627097\\exec-1c19455d-de07-460a-801d-58d5a0aa7b82.png",
+      "transparent": true,
+      "prompt": "Use case: identity-preserve. Asset type: transparent Japanese visual novel character expression sprite for GalStudy. Edit target: the attached original character Shiori. Create her happy expression variant with an open cheerful smile, softly closed smiling eyes, and a small natural blush. Preserve her original facial identity, long dark brown hair, muted rose ribbon, cream cable-knit cardigan, white blouse, rose neck ribbon, dark pleated skirt, open burgundy book, hand placement, body pose, head-to-mid-thigh framing and delicate anime linework. Keep her complete silhouette inside the portrait canvas and match her original scale. Genuine transparent alpha background around the character, with crisp clean silhouette edges. High quality production game sprite. The sole intended change is her facial expression.",
+      "tool": "built-in image_gen.imagegen"
+    },
+    {
+      "file": "frontend/public/assets/haruka-gentle.png",
+      "reference": "frontend/public/assets/haruka.png",
+      "generated_original": "C:\\Users\\Lenovo\\.codex\\generated_images\\01a1e432-1ce3-7251-980f-c1b7b2627097\\exec-3a11cd18-1c7b-47df-aa65-df4f5a5da153.png",
+      "transparent": true,
+      "prompt": "Use case: identity-preserve. Asset type: transparent Japanese visual novel expression sprite for GalStudy. Edit target: the attached original character Haruka. Create his gentle encouraging expression variant with a clearly warm, small relaxed smile, softened eyebrows and kind attentive blue gray eyes. Preserve his original facial identity, short tousled blue black hair, muted sage sweater vest, white shirt, gray trousers, navy textbook, one hand at his chin, other hand holding the book, body pose, head-to-mid-thigh framing, scale, delicate anime linework and soft shading. Keep his complete silhouette inside the portrait canvas. Genuine transparent alpha background around the character, with clean crisp silhouette edges. High quality production game sprite. The sole intended change is his facial expression.",
+      "tool": "built-in image_gen.imagegen"
+    }
+  ]
+}

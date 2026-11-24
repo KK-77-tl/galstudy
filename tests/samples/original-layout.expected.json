@@ -1,0 +1,27 @@
+{
+  "headings": [
+    "学习笔记",
+    "概念",
+    "练习",
+    "评分示例"
+  ],
+  "phrases": [
+    "Retrieval practice",
+    "Spaced practice",
+    "score = correct / total",
+    "0.75"
+  ],
+  "table_cells": [
+    "复习策略",
+    "检索练习",
+    "间隔复习",
+    "1天",
+    "3天",
+    "合上书复述",
+    "再次主动回忆"
+  ],
+  "table_rows": 3,
+  "table_columns": 4,
+  "rowspan_cell": "复习策略",
+  "source": "Original GalStudy HTML printed with local Edge, system fonts"
+}

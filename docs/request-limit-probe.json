@@ -1,0 +1,10 @@
+{
+  "through": "Next.js /api rewrite to private API",
+  "exact_file_limit_bytes": 10485760,
+  "accepted_status": 202,
+  "download_sha256_matches": true,
+  "delete_queued_or_processing_source": 200,
+  "one_byte_over_file_limit": 422,
+  "over_upload_request_limit": 413,
+  "over_json_request_limit": 413
+}

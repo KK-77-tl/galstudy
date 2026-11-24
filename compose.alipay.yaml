@@ -1,0 +1,19 @@
+# Optional server-only key mounts; use together with compose.yaml.
+services:
+  api:
+    environment:
+      ALIPAY_PRIVATE_KEY_PATH: /run/secrets/alipay-private.pem
+      ALIPAY_PUBLIC_KEY_PATH: /run/secrets/alipay-public.pem
+    volumes:
+      - type: bind
+        source: ${ALIPAY_PRIVATE_KEY_HOST_PATH:?Set an absolute server key path}
+        target: /run/secrets/alipay-private.pem
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${ALIPAY_PUBLIC_KEY_HOST_PATH:?Set an absolute server key path}
+        target: /run/secrets/alipay-public.pem
+        read_only: true
+        bind:
+          create_host_path: false

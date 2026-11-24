@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "input": "original image-only Chinese/English PDF",
+  "page": "第 1 页 · OCR",
+  "seconds": 1.626,
+  "recognized_text": "学习方法\n\n检索练习是主动回忆知识。\n合上书，复述刚才的内容。\nstudy methods\nRetrieval practice\n\nRecall the key ideas.",
+  "real_local_ocr": true,
+  "cloud_calls": 0
+}

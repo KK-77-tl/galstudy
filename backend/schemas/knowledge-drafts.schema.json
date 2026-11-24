@@ -1,0 +1,62 @@
+{
+  "$defs": {
+    "SourcedDraftPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "definition",
+            "concept",
+            "pitfall",
+            "exercise"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "quote": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "text",
+        "quote",
+        "source_id"
+      ],
+      "title": "SourcedDraftPoint",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "points": {
+      "items": {
+        "$ref": "#/$defs/SourcedDraftPoint"
+      },
+      "maxItems": 24,
+      "minItems": 1,
+      "title": "Points",
+      "type": "array"
+    }
+  },
+  "required": [
+    "points"
+  ],
+  "title": "DraftResult",
+  "type": "object"
+}

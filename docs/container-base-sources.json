@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-24T03:33:53.978777+00:00",
+  "bases": [
+    {
+      "name": "node",
+      "tag": "24-alpine",
+      "upstream": "https://hub.docker.com/v2/repositories/library/node/tags/24-alpine",
+      "mirror": "https://mirror.gcr.io/v2/library/node/manifests/24-alpine",
+      "digest": "sha256:116b800c3754b440ee0aa3ed2f20f5bf3d99a554bfd9adeea09ea8017f6e85f5",
+      "content_sha256_verified": true,
+      "build_reference": "mirror.gcr.io/library/node@sha256:116b800c3754b440ee0aa3ed2f20f5bf3d99a554bfd9adeea09ea8017f6e85f5"
+    },
+    {
+      "name": "python",
+      "tag": "3.12-slim",
+      "upstream": "https://hub.docker.com/v2/repositories/library/python/tags/3.12-slim",
+      "mirror": "https://mirror.gcr.io/v2/library/python/manifests/3.12-slim",
+      "digest": "sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b",
+      "content_sha256_verified": true,
+      "build_reference": "mirror.gcr.io/library/python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b"
+    }
+  ]
+}

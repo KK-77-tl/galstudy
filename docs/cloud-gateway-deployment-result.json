@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "deployment_id": "0bcea2d1cf65458f86c59457e2eb8ddd",
+  "model_inference_requested": false,
+  "course_material_sent": false,
+  "checks": [
+    {
+      "name": "health",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "name": "unauthenticated_rejected",
+      "status": 401,
+      "expected": 401
+    },
+    {
+      "name": "retained_secret_invalid_payload_rejected",
+      "status": 400,
+      "expected": 400
+    }
+  ]
+}

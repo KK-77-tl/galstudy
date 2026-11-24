@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "browser": "157.0.4341.60",
+  "model_transport": "httpx.MockTransport, original Demo graph used as structured response fixture",
+  "real_model_calls": 0,
+  "real_local_ocr": true,
+  "simulated_model_calls": 5,
+  "database": "isolated test-results database",
+  "api_routing": "Ephemeral same-origin fixture serves the built Next.js pages and isolated API",
+  "checks": [
+    "cloud upload and provenance",
+    "confirmed knowledge to validated cloud-mode story",
+    "desktop and 390px mobile layout",
+    "server grading",
+    "model failure shown",
+    "explicit Demo story without another model call",
+    "failed extraction then explicit Demo retry",
+    "no page errors",
+    "image-only scan recognized locally with OCR source marker and editable knowledge on mobile and desktop"
+  ]
+}

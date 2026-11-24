@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "gateway": "local synthetic fixture, not Alipay remote sandbox",
+  "real_transactions": 0,
+  "cases": [
+    {
+      "name": "desktop",
+      "page_errors": [],
+      "checks": [
+        "sandbox label",
+        "matching payment link without navigation",
+        "no mock simulation buttons",
+        "payment query",
+        "refund freezes entitlement",
+        "verified refund query",
+        "no overflow"
+      ]
+    },
+    {
+      "name": "mobile",
+      "page_errors": [],
+      "checks": [
+        "sandbox label",
+        "matching payment link without navigation",
+        "no mock simulation buttons",
+        "payment query",
+        "refund freezes entitlement",
+        "verified refund query",
+        "no overflow"
+      ]
+    }
+  ],
+  "synthetic_refund_submits": 2,
+  "fixture_stopped": true,
+  "frontend_stopped": true,
+  "directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\alipay-ui-9a3d0f97ca364b17a25923710b4a44cc"
+}

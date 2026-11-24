@@ -1,0 +1,155 @@
+{
+  "$defs": {
+    "Choice": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "target": {
+          "title": "Target",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "target"
+      ],
+      "title": "Choice",
+      "type": "object"
+    },
+    "Node": {
+      "properties": {
+        "chapter": {
+          "title": "Chapter",
+          "type": "integer"
+        },
+        "speaker": {
+          "title": "Speaker",
+          "type": "string"
+        },
+        "expression": {
+          "default": "温柔",
+          "title": "Expression",
+          "type": "string"
+        },
+        "scene": {
+          "default": "classroom",
+          "title": "Scene",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "choices": {
+          "items": {
+            "$ref": "#/$defs/Choice"
+          },
+          "title": "Choices",
+          "type": "array"
+        },
+        "question": {
+          "default": false,
+          "title": "Question",
+          "type": "boolean"
+        },
+        "ending": {
+          "default": false,
+          "title": "Ending",
+          "type": "boolean"
+        },
+        "correct_choice": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Correct Choice"
+        },
+        "explanation": {
+          "default": "",
+          "title": "Explanation",
+          "type": "string"
+        },
+        "references": {
+          "items": {
+            "$ref": "#/$defs/Reference"
+          },
+          "title": "References",
+          "type": "array"
+        }
+      },
+      "required": [
+        "chapter",
+        "speaker",
+        "text"
+      ],
+      "title": "Node",
+      "type": "object"
+    },
+    "Reference": {
+      "properties": {
+        "point_id": {
+          "title": "Point Id",
+          "type": "string"
+        },
+        "file_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "File Id"
+        },
+        "file": {
+          "title": "File",
+          "type": "string"
+        },
+        "location": {
+          "title": "Location",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "point_id",
+        "file",
+        "location",
+        "quote"
+      ],
+      "title": "Reference",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "nodes": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Node"
+      },
+      "title": "Nodes",
+      "type": "object"
+    }
+  },
+  "required": [
+    "nodes"
+  ],
+  "title": "Story",
+  "type": "object"
+}

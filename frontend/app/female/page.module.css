@@ -1,0 +1,4 @@
+.home { position: fixed; inset: 0; max-width: none; margin: 0; padding: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; background: #000; color: #e7d4b2; font-family: SimSun, serif; }
+.home img { width: min(500px, 80vw); height: auto; }
+.home h1 { font: inherit; font-size: 24px; letter-spacing: .2em; }
+.home a { padding: 12px 35px; border: 1px solid #8f7d5e; border-radius: 2px; }

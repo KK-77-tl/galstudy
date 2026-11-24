@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "real_model_calls": true,
+  "model": "@cf/zai-org/glm-4.7-flash",
+  "directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\cloud-live-3d2d5de4da8f436494843d019a02fa7e",
+  "checks": [
+    {
+      "name": "configured_real_learning_and_chat",
+      "passed": true
+    },
+    {
+      "name": "real_draft_检索",
+      "passed": false,
+      "error": "模型生成超时或网络不可用，可稍后重试或显式选择Demo。",
+      "seconds": 91.172
+    }
+  ],
+  "samples": [],
+  "chat": [],
+  "error": "real_draft_检索"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "engine": "webkit",
+  "real_model_calls": 0,
+  "directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\webkit-003b84d5edac4276a58b9029d42eefb4",
+  "scope": "learning page, desktop and 390px viewport; no physical device or intro verification",
+  "exit_code": 0,
+  "fixture_stopped": true,
+  "frontend_stopped": true
+}

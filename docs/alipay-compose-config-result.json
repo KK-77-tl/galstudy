@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "scope": "Compose optional secret mounts syntax only; no app startup or key validation",
+  "network_calls": 0,
+  "exit_code": 0
+}

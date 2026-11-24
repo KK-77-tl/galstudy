@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "browser": "chrome",
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "checks": [
+    "registration",
+    "three uploads",
+    "edit and confirm",
+    "reload persistence",
+    "confirmed knowledge to course story",
+    "course source references",
+    "wrong answer review",
+    "replay latest story",
+    "wrong branch",
+    "wrong notebook",
+    "logout and login resume",
+    "correct branch on mobile",
+    "mobile max-length course title and knowledge",
+    "overflow",
+    "mixed Chinese PDF",
+    "intro and selection entry preserved",
+    "course companion retrieval and character switching",
+    "chat persistence and mobile unknown answer",
+    "mobile companion dragging and collapse",
+    "model failure shown and explicit Demo retry",
+    "reference upload and simulated review",
+    "failed and successful Mock payment",
+    "entitlement to job and character delivery",
+    "custom character in story and companion on desktop and mobile"
+  ],
+  "page_errors": []
+}

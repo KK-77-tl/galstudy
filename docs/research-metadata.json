@@ -1,0 +1,66 @@
+[
+  {
+    "repo": "OpenWebGAL/WebGAL",
+    "stars": 4037,
+    "branch": "main",
+    "license": "MPL-2.0",
+    "version": "4.6.7",
+    "url": "https://github.com/OpenWebGAL/WebGAL"
+  },
+  {
+    "repo": "docling-project/docling",
+    "stars": 70642,
+    "branch": "main",
+    "license": "MIT",
+    "version": "v2.150.1",
+    "url": "https://github.com/docling-project/docling"
+  },
+  {
+    "repo": "Mintplex-Labs/anything-llm",
+    "stars": 68333,
+    "branch": "master",
+    "license": "MIT",
+    "version": "v1.19.0",
+    "url": "https://github.com/Mintplex-Labs/anything-llm"
+  },
+  {
+    "repo": "SillyTavern/SillyTavern",
+    "stars": 35675,
+    "branch": "release",
+    "license": "AGPL-3.0",
+    "version": "1.19.0",
+    "url": "https://github.com/SillyTavern/SillyTavern"
+  },
+  {
+    "repo": "Comfy-Org/ComfyUI",
+    "stars": 147128,
+    "branch": "master",
+    "license": "GPL-3.0",
+    "version": "v0.45.0",
+    "url": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+    "repo": "inkle/ink",
+    "stars": 5021,
+    "branch": "master",
+    "license": "MIT",
+    "version": "v1.2.1",
+    "url": "https://github.com/inkle/ink"
+  },
+  {
+    "repo": "y-lohse/inkjs",
+    "stars": 668,
+    "branch": "master",
+    "license": "MIT",
+    "version": "v2.4.0",
+    "url": "https://github.com/y-lohse/inkjs"
+  },
+  {
+    "repo": "open-spaced-repetition/ts-fsrs",
+    "stars": 875,
+    "branch": "main",
+    "license": "MIT",
+    "version": "@open-spaced-repetition/binding@0.6.1",
+    "url": "https://github.com/open-spaced-repetition/ts-fsrs"
+  }
+]

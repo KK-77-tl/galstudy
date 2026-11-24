@@ -1,0 +1,1005 @@
+{
+  "status": "completed",
+  "created_at": "2026-11-23T02:03:06.830239+00:00",
+  "scratch_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4",
+  "sample_interval_ms": 10,
+  "memory_scope": "Sampled sum of RSS in child process tree, shared pages may be counted more than once",
+  "runs_per_process": 2,
+  "ocr_dpi": 180,
+  "cpu_threads": 2,
+  "model_source": {
+    "docling_slim": "2.150.1",
+    "models": [
+      {
+        "repo": "docling-project/docling-layout-heron",
+        "requested_revision": "main",
+        "commit": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+        "source": "https://huggingface.co/docling-project/docling-layout-heron",
+        "license": "apache-2.0",
+        "files": [
+          {
+            "path": ".gitattributes",
+            "bytes": 1519,
+            "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+          },
+          {
+            "path": "config.json",
+            "bytes": 3268,
+            "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d"
+          },
+          {
+            "path": "docling_heron_400.png",
+            "bytes": 96925,
+            "sha256": "e7f78610372b32a7938e480d2c7fa1c3037ee170bd82282a5bd026232f6e6f9e"
+          },
+          {
+            "path": "model.safetensors",
+            "bytes": 171658996,
+            "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c"
+          },
+          {
+            "path": "preprocessor_config.json",
+            "bytes": 444,
+            "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1"
+          },
+          {
+            "path": "README.md",
+            "bytes": 3219,
+            "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6"
+          }
+        ]
+      },
+      {
+        "repo": "docling-project/docling-models",
+        "requested_revision": "v2.3.0",
+        "commit": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+        "source": "https://huggingface.co/docling-project/docling-models",
+        "license": "cdla-permissive-2.0",
+        "files": [
+          {
+            "path": "model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+            "bytes": 212758388,
+            "sha256": "2a7d6c924b3cd12fb99a09280ca9c33a89c5d60b93253617d2e088c1a40374d9"
+          },
+          {
+            "path": "model_artifacts/tableformer/accurate/tm_config.json",
+            "bytes": 7060,
+            "sha256": "984e122ceb8ccf84d84c9d2882f6f2302a44b4f1e577babd6289892c36f3cffd"
+          },
+          {
+            "path": "model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+            "bytes": 145453276,
+            "sha256": "3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718"
+          },
+          {
+            "path": "model_artifacts/tableformer/fast/tm_config.json",
+            "bytes": 7060,
+            "sha256": "dca6762508dddfae6d57d6cb4ef822c6000119dff0f3b6489db7413118c2622a"
+          },
+          {
+            "path": "README.md",
+            "bytes": 3413,
+            "sha256": "d17f233378eff1240b623b36da76ee8b40afcca05d505949713bf03f7e00822a"
+          }
+        ]
+      }
+    ],
+    "tesseract_osd": {
+      "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/osd.traineddata",
+      "bytes": 10562727,
+      "sha256": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff"
+    }
+  },
+  "results": [
+    {
+      "file": "original.pdf",
+      "engine": "lightweight",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 1.8082711000461131,
+      "sampled_peak_rss_mib": 61.73,
+      "sampled_cpu_seconds": 0.7344,
+      "sampled_peak_cpu_percent": 83.79,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "a139cbe6cd802a5db2908d7d312a4ac0ee679eb405e9b189b2da99ce1a7f1fb7",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.pdf-lightweight",
+      "import_setup_seconds": 1.5428243998903781,
+      "runs": [
+        {
+          "conversion_seconds": 0.044546399964019656,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.0009180998895317316,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.015625,
+      "characters": 127,
+      "text_checks": {
+        "Study methods": true,
+        "Retrieval practice": true,
+        "Close the book": true
+      },
+      "source_items": [
+        "第 1 页"
+      ],
+      "tables": null
+    },
+    {
+      "file": "original.pdf",
+      "engine": "docling",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 87.7063869999256,
+      "sampled_peak_rss_mib": 1040.61,
+      "sampled_cpu_seconds": 42.3281,
+      "sampled_peak_cpu_percent": 297.79,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "a139cbe6cd802a5db2908d7d312a4ac0ee679eb405e9b189b2da99ce1a7f1fb7",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.pdf-docling",
+      "import_setup_seconds": 20.738700299989432,
+      "runs": [
+        {
+          "conversion_seconds": 60.57353509997483,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 4.8343534000450745,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 30.71875,
+      "characters": 131,
+      "text_checks": {
+        "Study methods": true,
+        "Retrieval practice": true,
+        "Close the book": true
+      },
+      "source_items": [
+        {
+          "ref": "#/texts/0",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/1",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "original.pptx",
+      "engine": "lightweight",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 1.1117410999722779,
+      "sampled_peak_rss_mib": 62.01,
+      "sampled_cpu_seconds": 0.625,
+      "sampled_peak_cpu_percent": 76.45,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "cec451b7b6f2dcc70ac3f8ecdaf998a5f3bd8424601215d58b3a952d09e8b47b",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.pptx-lightweight",
+      "import_setup_seconds": 0.854949799948372,
+      "runs": [
+        {
+          "conversion_seconds": 0.018412600038573146,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.004577100044116378,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.03125,
+      "characters": 86,
+      "text_checks": {
+        "学习方法": true,
+        "检索练习": true,
+        "Recall": true,
+        "Read": true,
+        "回忆": true,
+        "阅读": true
+      },
+      "source_items": [
+        "幻灯片 1",
+        "幻灯片 2"
+      ],
+      "tables": null
+    },
+    {
+      "file": "original.pptx",
+      "engine": "docling",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 9.098498499952257,
+      "sampled_peak_rss_mib": 315.84,
+      "sampled_cpu_seconds": 7.0469,
+      "sampled_peak_cpu_percent": 121.95,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "cec451b7b6f2dcc70ac3f8ecdaf998a5f3bd8424601215d58b3a952d09e8b47b",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.pptx-docling",
+      "import_setup_seconds": 7.848155500018038,
+      "runs": [
+        {
+          "conversion_seconds": 0.13805629999842495,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.04061829997226596,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.140625,
+      "characters": 135,
+      "text_checks": {
+        "学习方法": true,
+        "检索练习": true,
+        "Recall": true,
+        "Read": true,
+        "回忆": true,
+        "阅读": true
+      },
+      "source_items": [
+        {
+          "ref": "#/texts/0",
+          "label": "title",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/1",
+          "label": "list_item",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/2",
+          "label": "list_item",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/3",
+          "label": "title",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "ref": "#/tables/0",
+          "label": "table",
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "rows": 2,
+          "columns": 2,
+          "cells": [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Recall",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "回忆",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Read",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "阅读",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "original.docx",
+      "engine": "lightweight",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 1.2684652999741957,
+      "sampled_peak_rss_mib": 72.65,
+      "sampled_cpu_seconds": 0.8125,
+      "sampled_peak_cpu_percent": 103.42,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "0e8c58d7a829195f986a3766c352485d6343b0214eeec6f1d260f864b77fc6e1",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.docx-lightweight",
+      "import_setup_seconds": 0.9962789999553934,
+      "runs": [
+        {
+          "conversion_seconds": 0.018974300008267164,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.007254999945871532,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.015625,
+      "characters": 91,
+      "text_checks": {
+        "学习方法": true,
+        "检索练习": true,
+        "主动回忆": true,
+        "合上书复述": true
+      },
+      "source_items": [
+        "内容块 1 · Title",
+        "内容块 2 · Normal",
+        "内容块 3 · 表格"
+      ],
+      "tables": null
+    },
+    {
+      "file": "original.docx",
+      "engine": "docling",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 9.229289899929427,
+      "sampled_peak_rss_mib": 323.9,
+      "sampled_cpu_seconds": 7.4844,
+      "sampled_peak_cpu_percent": 120.0,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "0e8c58d7a829195f986a3766c352485d6343b0214eeec6f1d260f864b77fc6e1",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original.docx-docling",
+      "import_setup_seconds": 7.942772900103591,
+      "runs": [
+        {
+          "conversion_seconds": 0.15160870004910976,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.032750200014561415,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.09375,
+      "characters": 152,
+      "text_checks": {
+        "学习方法": true,
+        "检索练习": true,
+        "主动回忆": true,
+        "合上书复述": true
+      },
+      "source_items": [
+        {
+          "ref": "#/texts/0",
+          "label": "title",
+          "pages": []
+        },
+        {
+          "ref": "#/texts/1",
+          "label": "text",
+          "pages": []
+        },
+        {
+          "ref": "#/tables/0",
+          "label": "table",
+          "pages": []
+        }
+      ],
+      "tables": [
+        {
+          "rows": 2,
+          "columns": 2,
+          "cells": [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "方法 Method",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "示例 Example",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "主动回忆",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "合上书复述",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "original-layout.pdf",
+      "engine": "lightweight",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 1.2407206000061706,
+      "sampled_peak_rss_mib": 62.78,
+      "sampled_cpu_seconds": 0.7656,
+      "sampled_peak_cpu_percent": 98.57,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "681c56a1f149cd82bd8f021023f9b0a939efc456d624a575c55e9273e60c6d5c",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original-layout.pdf-lightweight",
+      "import_setup_seconds": 0.923772000009194,
+      "runs": [
+        {
+          "conversion_seconds": 0.056546300067566335,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.0059088000562042,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.0625,
+      "characters": 561,
+      "text_checks": {
+        "学习笔记": true,
+        "概念": true,
+        "练习": true,
+        "评分示例": true,
+        "Retrieval practice": true,
+        "Spaced practice": true,
+        "score = correct / total": true,
+        "0.75": true,
+        "复习策略": true,
+        "检索练习": true,
+        "间隔复习": true,
+        "1天": true,
+        "3天": true,
+        "合上书复述": true,
+        "再次主动回忆": true
+      },
+      "source_items": [
+        "第 1 页"
+      ],
+      "tables": null
+    },
+    {
+      "file": "original-layout.pdf",
+      "engine": "docling",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 43.190504600061104,
+      "sampled_peak_rss_mib": 1082.29,
+      "sampled_cpu_seconds": 49.1875,
+      "sampled_peak_cpu_percent": 246.86,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "681c56a1f149cd82bd8f021023f9b0a939efc456d624a575c55e9273e60c6d5c",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original-layout.pdf-docling",
+      "import_setup_seconds": 8.127954099909402,
+      "runs": [
+        {
+          "conversion_seconds": 26.17759340000339,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 7.340122900088318,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 41.171875,
+      "characters": 738,
+      "text_checks": {
+        "学习笔记": true,
+        "概念": true,
+        "练习": true,
+        "评分示例": true,
+        "Retrieval practice": true,
+        "Spaced practice": true,
+        "score = correct / total": true,
+        "0.75": true,
+        "复习策略": true,
+        "检索练习": true,
+        "间隔复习": true,
+        "1天": true,
+        "3天": true,
+        "合上书复述": true,
+        "再次主动回忆": true
+      },
+      "source_items": [
+        {
+          "ref": "#/texts/0",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/1",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/2",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/3",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/4",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/5",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/6",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/7",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/8",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/9",
+          "label": "section_header",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/10",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/11",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/tables/0",
+          "label": "table",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "rows": 3,
+          "columns": 4,
+          "cells": [
+            {
+              "bbox": {
+                "l": 63.749997343749996,
+                "t": 276.1834601598554,
+                "r": 128.21996519000123,
+                "b": 289.0517457686767,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "类别 Category",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 192.7734294677734,
+                "t": 276.1834601598554,
+                "r": 249.6404923208124,
+                "b": 289.0517457686767,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "方法 Method",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 309.09373712109374,
+                "t": 276.1834601598554,
+                "r": 365.9846037206409,
+                "b": 289.0517457686767,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "间隔 Interval",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.44920477294903,
+                "t": 276.1834601598554,
+                "r": 477.988753218801,
+                "b": 289.0517457686767,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "行动 Action",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 63.749997343749996,
+                "t": 320.4334583161053,
+                "r": 102.74999571875,
+                "b": 333.3017439249267,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 2,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "复习策略",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 192.7734294677734,
+                "t": 306.1834589098553,
+                "r": 231.77342784277343,
+                "b": 319.0517445186766,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "检索练习",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 309.09373712109374,
+                "t": 306.1834589098553,
+                "r": 324.2662218639069,
+                "b": 319.0517445186766,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1天",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.44920477294903,
+                "t": 306.1834589098553,
+                "r": 474.1992027416991,
+                "b": 319.0517445186766,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "合上书复述",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 192.7734294677734,
+                "t": 335.4334576911053,
+                "r": 231.77342784277343,
+                "b": 348.3017432999267,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "间隔复习",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 309.09373712109374,
+                "t": 335.4334576911053,
+                "r": 324.2662218639069,
+                "b": 348.3017432999267,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "3天",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 425.44920477294903,
+                "t": 335.4334576911053,
+                "r": 483.94920233544906,
+                "b": 348.3017432999267,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "再次主动回忆",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "original-scan.pdf",
+      "engine": "lightweight",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 2.455060299951583,
+      "sampled_peak_rss_mib": 185.72,
+      "sampled_cpu_seconds": 1.6562,
+      "sampled_peak_cpu_percent": 110.5,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "2f00fd52784e02fd1eca7c1382a18432cbccf9a5f2b2f78a38e9b5477d940a0d",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original-scan.pdf-lightweight",
+      "import_setup_seconds": 0.8658397000981495,
+      "runs": [
+        {
+          "conversion_seconds": 0.9307967000640929,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 0.340839899959974,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 0.90625,
+      "characters": 87,
+      "text_checks": {
+        "学习方法": true,
+        "检索练习": true,
+        "主动回忆知识": true,
+        "Retrieval practice": true
+      },
+      "source_items": [
+        "第 1 页 · OCR"
+      ],
+      "tables": null
+    },
+    {
+      "file": "original-scan.pdf",
+      "engine": "docling",
+      "exit_code": 0,
+      "timed_out": false,
+      "process_seconds": 38.6335261000786,
+      "sampled_peak_rss_mib": 1098.45,
+      "sampled_cpu_seconds": 40.9531,
+      "sampled_peak_cpu_percent": 220.21,
+      "cpu_percent_scope": "100% equals one logical core, about 100ms measurement windows",
+      "input_sha256": "2f00fd52784e02fd1eca7c1382a18432cbccf9a5f2b2f78a38e9b5477d940a0d",
+      "output_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\docling-729a66edb0674787b84e25d43e564ce4\\original-scan.pdf-docling",
+      "import_setup_seconds": 8.13915870001074,
+      "runs": [
+        {
+          "conversion_seconds": 23.135147799970582,
+          "status": "success"
+        },
+        {
+          "conversion_seconds": 5.688451000023633,
+          "status": "success"
+        }
+      ],
+      "conversion_cpu_seconds": 32.796875,
+      "characters": 68,
+      "text_checks": {
+        "学习方法": false,
+        "检索练习": false,
+        "主动回忆知识": false,
+        "Retrieval practice": true
+      },
+      "source_items": [
+        {
+          "ref": "#/texts/0",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/1",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/2",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "ref": "#/texts/3",
+          "label": "text",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

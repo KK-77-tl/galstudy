@@ -1,0 +1,148 @@
+{
+  "$defs": {
+    "GeneratedChoice": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "maxLength": 600,
+          "minLength": 1,
+          "title": "Label",
+          "type": "string"
+        },
+        "target": {
+          "maxLength": 60,
+          "minLength": 1,
+          "title": "Target",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "target"
+      ],
+      "title": "GeneratedChoice",
+      "type": "object"
+    },
+    "GeneratedNode": {
+      "additionalProperties": false,
+      "properties": {
+        "chapter": {
+          "maximum": 2,
+          "minimum": 1,
+          "title": "Chapter",
+          "type": "integer"
+        },
+        "speaker": {
+          "enum": [
+            "小栞",
+            "遥",
+            "凛"
+          ],
+          "title": "Speaker",
+          "type": "string"
+        },
+        "expression": {
+          "default": "温柔",
+          "enum": [
+            "温柔",
+            "思考",
+            "认真",
+            "开心"
+          ],
+          "title": "Expression",
+          "type": "string"
+        },
+        "scene": {
+          "default": "classroom",
+          "enum": [
+            "classroom",
+            "library"
+          ],
+          "title": "Scene",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 3000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "choices": {
+          "items": {
+            "$ref": "#/$defs/GeneratedChoice"
+          },
+          "maxItems": 4,
+          "title": "Choices",
+          "type": "array"
+        },
+        "question": {
+          "default": false,
+          "title": "Question",
+          "type": "boolean"
+        },
+        "ending": {
+          "default": false,
+          "title": "Ending",
+          "type": "boolean"
+        },
+        "correct_choice": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Correct Choice"
+        },
+        "explanation": {
+          "default": "",
+          "maxLength": 2000,
+          "title": "Explanation",
+          "type": "string"
+        },
+        "point_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12,
+          "title": "Point Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "chapter",
+        "speaker",
+        "text"
+      ],
+      "title": "GeneratedNode",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "nodes": {
+      "additionalProperties": {
+        "$ref": "#/$defs/GeneratedNode"
+      },
+      "maxProperties": 60,
+      "minProperties": 4,
+      "title": "Nodes",
+      "type": "object"
+    }
+  },
+  "required": [
+    "nodes"
+  ],
+  "title": "GeneratedStory",
+  "type": "object"
+}

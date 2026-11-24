@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-23T02:40:08.823423+00:00",
+  "sources": [
+    {
+      "label": "emerge-home",
+      "url": "https://emerge.alipay.com/",
+      "bytes": 14388,
+      "sha256": "e42dc0c478e5e818b976e4ca9a77a49c4209229fde9f5146b877359c92b4e8c6",
+      "local_snapshot": "C:\\Users\\Lenovo\\Desktop\\galstudy\\data\\contest-research\\emerge.html"
+    },
+    {
+      "label": "emerge-public-bundle",
+      "url": "https://gw.alipayobjects.com/render/p/yuyan/180022670000174287/async.0126bac1.js",
+      "bytes": 6288691,
+      "sha256": "748bed19617b2055174dfef5cc0314303f5a6b2a396182f4ac6ebde83bd4804e",
+      "local_snapshot": "C:\\Users\\Lenovo\\Desktop\\galstudy\\data\\contest-research\\async.0126bac1.js"
+    },
+    {
+      "label": "emerge-rule-link",
+      "url": "https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3",
+      "bytes": 44614,
+      "sha256": "d6315f802f75e6632f29b5adbc5427e1075fc815c54e1c44e13fdb85f8e71406",
+      "local_snapshot": "C:\\Users\\Lenovo\\Desktop\\galstudy\\data\\contest-research\\emerge-rules.html"
+    },
+    {
+      "label": "payathon-legal-entry",
+      "url": "https://render.alipay.com/p/yuyan/180022670000190962/index.html",
+      "bytes": 10832,
+      "sha256": "5d407326c2da3876fbc4379876b2908691bbecd02760aa9e86ef249cb233459a",
+      "local_snapshot": "C:\\Users\\Lenovo\\Desktop\\galstudy\\data\\contest-research\\payathon-rules.html"
+    },
+    {
+      "label": "payathon-legal-bundle",
+      "url": "https://gw.alipayobjects.com/render/p/yuyan/180022670000190962/async.5d83c7dc.js",
+      "bytes": 1921468,
+      "sha256": "464165ebb2b4f22e231a2ac444cdd303a15b81e88fee8ceaf2784e4230ea2c75",
+      "local_snapshot": "C:\\Users\\Lenovo\\Desktop\\galstudy\\data\\contest-research\\payathon-async.js"
+    }
+  ],
+  "emerge_full_rule_status": "not retrieved; public API requires authentication; browser reads timed out",
+  "actions": "read public resources only"
+}

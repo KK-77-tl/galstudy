@@ -1,0 +1,11 @@
+{
+  "url": "https://demo.openwebgal.com",
+  "dynamic_story": "未测试",
+  "question_event_bridge": "未测试",
+  "server_save_bridge": "未测试",
+  "iframe_loaded": true,
+  "iframe_text_sample": "PRESS THE SCREEN TO START\nPowered by WebGAL Framework",
+  "direct_access": "SecurityError",
+  "unmount_removed_frame": true,
+  "note": "官方示例跨域，直接读取状态被同源策略限制。需要受控的同源构建或双方消息桥才能处理业务题目与存档。资源释放与完整动态脚本未验证。"
+}

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "created_at": "2026-11-18T06:28:12.713710+00:00",
+  "network": {
+    "offline": false,
+    "latency": 300,
+    "downloadThroughput": 204800,
+    "uploadThroughput": 65536,
+    "connectionType": "cellular3g"
+  },
+  "cases": [
+    {
+      "viewport": "1440x1000",
+      "seconds": 32.52,
+      "checks": [
+        "offline upload leaves no file, online retry succeeds",
+        "three uploads",
+        "edit and confirm",
+        "generate and grade",
+        "offline before submit preserves save",
+        "lost committed response saves once",
+        "reload resumes committed ending",
+        "stream disconnect shown",
+        "chat refresh and new message",
+        "no horizontal overflow"
+      ],
+      "page_errors": [],
+      "saved_node": "review",
+      "saved_version_before": 2,
+      "saved_version_after": 3,
+      "wrong_answers": 1,
+      "chat_reply_statuses": [
+        "complete",
+        "complete"
+      ],
+      "chat_message_count": 4
+    },
+    {
+      "viewport": "390x844",
+      "seconds": 33.61,
+      "checks": [
+        "offline upload leaves no file, online retry succeeds",
+        "three uploads",
+        "edit and confirm",
+        "generate and grade",
+        "offline before submit preserves save",
+        "lost committed response saves once",
+        "reload resumes committed ending",
+        "stream disconnect shown",
+        "chat refresh and new message",
+        "no horizontal overflow"
+      ],
+      "page_errors": [],
+      "saved_node": "review",
+      "saved_version_before": 2,
+      "saved_version_after": 3,
+      "wrong_answers": 1,
+      "chat_reply_statuses": [
+        "complete",
+        "complete"
+      ],
+      "chat_message_count": 4
+    }
+  ],
+  "real_model_calls": 0,
+  "scratch_directory": "C:\\Users\\Lenovo\\Desktop\\galstudy\\test-results\\network-27d26dc4ee9d4498b5f45b801d99269d",
+  "frontend_readiness_status": 200,
+  "browser": "157.0.4341.60",
+  "fixture_stopped": true,
+  "frontend_stopped": true
+}

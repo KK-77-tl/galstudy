@@ -1,0 +1,28 @@
+{
+  "model": "@cf/zai-org/glm-4.7-flash",
+  "real_model_call": true,
+  "http_status": 200,
+  "body": {
+    "model": "@cf/zai-org/glm-4.7-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"answer\": \"检索练习是指主动从记忆中提取知识的行为。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 30,
+      "completion_tokens": 20,
+      "total_tokens": 50,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "neurons": 0.893
+    }
+  },
+  "seconds": 13.187
+}

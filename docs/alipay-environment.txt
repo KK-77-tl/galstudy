@@ -1,0 +1,4 @@
+alipay-sdk-python==3.7.1411
+pyasn1==0.6.5
+pycryptodome==4.6.0
+rsa==4.9.1

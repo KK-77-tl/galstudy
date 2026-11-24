@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "sqlite_tests": 74,
+  "sqlite_seconds": 30.36,
+  "postgresql_tests": 74,
+  "migration": 7,
+  "real_transactions": 0,
+  "provider_routes": "not enabled"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "provider_tests": 15,
+  "sqlite_tests": 89,
+  "sqlite_seconds": 38.41,
+  "postgresql_tests": 89,
+  "postgresql_seconds": 43.42,
+  "real_payment_calls": 0,
+  "runtime_provider": "mock",
+  "active_alipay_routes": false
+}
